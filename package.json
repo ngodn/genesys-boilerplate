@@ -1,7 +1,7 @@
 {
-  "name": "apostrophe-boilerplate",
+  "name": "genesys-boilerplate",
   "version": "2.0.0",
-  "description": "Minimal Apostrophe Boilerplate",
+  "description": "Minimal Genesys Boilerplate",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -10,10 +10,10 @@
     "type": "git",
     "url": ""
   },
-  "author": "P'unk Avenue",
+  "author": "ngodn",
   "license": "MIT",
   "dependencies": {
-    "apostrophe": "^2.47.0"
+    "genesys": "^2.47.0"
   },
   "nodemonConfig": {
     "verbose": true,
@@ -23,7 +23,7 @@
       "public/modules/**/*.less",
       "public/modules/**/*.js",
       "public/uploads",
-      "public/apos-minified/*.js",
+      "public/genex-minified/*.js",
       "public/css/master-*.less",
       "data"
     ],
